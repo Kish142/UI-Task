@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "query": [
+    "kasakaranur",
+    "nedunchalai",
+    "nagar",
+    "salem",
+    "salem",
+    "tamil",
+    "nadu",
+    "india"
+  ],
+  "features": [
+    {
+      "id": "neighborhood.2095789323064630",
+      "type": "Feature",
+      "place_type": ["neighborhood"],
+      "relevance": 1,
+      "properties": {},
+      "text": "Kasakaranur",
+      "place_name": "Kasakaranur, Nedunchalai Nagar, Salem, Salem, Tamil Nadu, India",
+      "bbox": [78.123959551, 11.67138614, 78.127950121, 11.675764569],
+      "center": [78.125968, 11.673523],
+      "geometry": { "type": "Point", "coordinates": [78.125968, 11.673523] },
+      "context": [
+        { "id": "locality.10940088082207490", "text": "Nedunchalai Nagar" },
+        {
+          "id": "place.12733796283071680",
+          "wikidata": "Q9863",
+          "text": "Salem"
+        },
+        {
+          "id": "district.8933895434071680",
+          "wikidata": "Q15192",
+          "text": "Salem"
+        },
+        {
+          "id": "region.9446328433528850",
+          "wikidata": "Q1445",
+          "short_code": "IN-TN",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "country.2782945337",
+          "wikidata": "Q668",
+          "short_code": "in",
+          "text": "India"
+        }
+      ]
+    },
+    {
+      "id": "locality.10940088082207490",
+      "type": "Feature",
+      "place_type": ["locality"],
+      "relevance": 0.851852,
+      "properties": {},
+      "text": "Nedunchalai Nagar",
+      "place_name": "Nedunchalai Nagar, Salem, Salem, Tamil Nadu, India",
+      "bbox": [78.12112314, 11.66753716, 78.127950121, 11.675764569],
+      "center": [78.124221, 11.671808],
+      "geometry": { "type": "Point", "coordinates": [78.124221, 11.671808] },
+      "context": [
+        {
+          "id": "place.12733796283071680",
+          "wikidata": "Q9863",
+          "text": "Salem"
+        },
+        {
+          "id": "district.8933895434071680",
+          "wikidata": "Q15192",
+          "text": "Salem"
+        },
+        {
+          "id": "region.9446328433528850",
+          "wikidata": "Q1445",
+          "short_code": "IN-TN",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "country.2782945337",
+          "wikidata": "Q668",
+          "short_code": "in",
+          "text": "India"
+        }
+      ]
+    },
+    {
+      "id": "place.12733796283071680",
+      "type": "Feature",
+      "place_type": ["place"],
+      "relevance": 0.722222,
+      "properties": { "wikidata": "Q9863" },
+      "text": "Salem",
+      "place_name": "Salem, Tamil Nadu, India",
+      "bbox": [77.995381, 11.513855, 78.31956, 11.782428],
+      "center": [78.16667, 11.65],
+      "geometry": { "type": "Point", "coordinates": [78.16667, 11.65] },
+      "context": [
+        {
+          "id": "district.8933895434071680",
+          "wikidata": "Q15192",
+          "text": "Salem"
+        },
+        {
+          "id": "region.9446328433528850",
+          "wikidata": "Q1445",
+          "short_code": "IN-TN",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "country.2782945337",
+          "wikidata": "Q668",
+          "short_code": "in",
+          "text": "India"
+        }
+      ]
+    },
+    {
+      "id": "poi.472446449806",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 0.712222,
+      "properties": {
+        "foursquare": "52e3714e498e3a9d19b7550c",
+        "landmark": true,
+        "category": "indian restaurant, indian food, restaurant"
+      },
+      "text": "ShivRaj Holiday Inn",
+      "place_name": "ShivRaj Holiday Inn, Salem, Tamil Nadu, India",
+      "center": [78.126251, 11.674851],
+      "geometry": { "coordinates": [78.126251, 11.674851], "type": "Point" },
+      "context": [
+        { "id": "neighborhood.2095789323064630", "text": "Kasakaranur" },
+        { "id": "locality.10940088082207490", "text": "Nedunchalai Nagar" },
+        {
+          "id": "place.12733796283071680",
+          "wikidata": "Q9863",
+          "text": "Salem"
+        },
+        {
+          "id": "district.8933895434071680",
+          "wikidata": "Q15192",
+          "text": "Salem"
+        },
+        {
+          "id": "region.9446328433528850",
+          "wikidata": "Q1445",
+          "short_code": "IN-TN",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "country.2782945337",
+          "wikidata": "Q668",
+          "short_code": "in",
+          "text": "India"
+        }
+      ]
+    },
+    {
+      "id": "locality.4890287863637760",
+      "type": "Feature",
+      "place_type": ["locality"],
+      "relevance": 0.638889,
+      "properties": {},
+      "text": "Nagar",
+      "place_name": "Nagar, Tindivanam, Viluppuram, Tamil Nadu, India",
+      "bbox": [79.303374249, 11.684340805, 79.867813971, 12.267737249],
+      "center": [79.847573, 12.246639],
+      "geometry": { "type": "Point", "coordinates": [79.847573, 12.246639] },
+      "context": [
+        {
+          "id": "place.3194631156172830",
+          "wikidata": "Q2465629",
+          "text": "Tindivanam"
+        },
+        {
+          "id": "district.6464629523239390",
+          "wikidata": "Q15205",
+          "text": "Viluppuram"
+        },
+        {
+          "id": "region.9446328433528850",
+          "wikidata": "Q1445",
+          "short_code": "IN-TN",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "country.2782945337",
+          "wikidata": "Q668",
+          "short_code": "in",
+          "text": "India"
+        }
+      ]
+    }
+  ],
+  "attribution": "NOTICE: © 2021 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}

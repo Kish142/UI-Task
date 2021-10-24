@@ -1,0 +1,118 @@
+.dashboard-page .user-list-section {
+  margin-top: 1rem;
+  height: calc(100vh - 90px);
+  overflow: auto;
+
+  .user-list-section-wrapper {
+    .user-card-wrapper {
+      margin-top: 1rem;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+
+      .user-card {
+        background-color: #ffffff;
+        padding: 2rem 2rem;
+        border-radius: 4px;
+        width: 100%;
+        transition: transform 0.5s ease-in-out;
+
+        .img {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid black;
+          }
+        }
+
+        .user-details {
+          margin-top: 1rem;
+
+          .user-name {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+          }
+
+          p {
+            margin-bottom: 15px;
+          }
+        }
+
+        .view-detail-btn {
+          margin-top: 2rem;
+          button {
+            cursor: pointer;
+            width: 100%;
+            height: 35px;
+            outline: none;
+            border: 1px solid var(--primary-color);
+            color: var(--dark-primary-color);
+            background-color: transparent;
+            font-size: 1.1rem;
+            text-transform: capitalize;
+          }
+        }
+
+        &:hover {
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.185);
+          transform: scale(1.03);
+        }
+      }
+    }
+
+    .dark-bg-color {
+      background-color: var(--dark-primary-color) !important;
+    }
+
+    .pagination {
+      margin: 3rem 0 0 0;
+      gap: 1rem;
+
+      p {
+        width: 30px;
+        height: 30px;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 470px) {
+    .user-list-section-wrapper {
+      .user-card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  @media screen and (min-width: 870px) {
+    .user-list-section-wrapper {
+      .user-card-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .user-list-section-wrapper {
+      .user-card-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+}

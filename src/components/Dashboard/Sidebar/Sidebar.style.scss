@@ -1,0 +1,126 @@
+.dashboard-page .sidebar {
+  .sidebar-wrapper {
+    width: 200px;
+    height: 100vh;
+    background-color: #ffffff;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    .header {
+      background-color: #ffffff;
+      padding: 0 15px;
+      margin-top: 1rem;
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+
+    .close-icon {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      font-size: 1.7rem;
+      color: white;
+      background-color: var(--primary-color);
+
+      path {
+        stroke: #fff;
+      }
+    }
+
+    .menu-items {
+      padding-top: 1rem;
+
+      .logout {
+        padding: 0 15px;
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+        cursor: pointer;
+        gap: 5px;
+        padding: 5px 20px;
+        border: 1px solid var(--dark-primary-color);
+        border-radius: 4px;
+        color: var(--dark-primary-color);
+
+        p {
+          font-size: 1.1rem;
+          color: var(--dark-primary-color);
+        }
+
+        &:hover {
+          background-color: var(--primary-color);
+          color: #ffffff;
+
+          p {
+            color: #ffffff;
+          }
+        }
+      }
+
+      .dashboard {
+        .main-menu {
+          gap: 10px;
+          padding: 10px 15px;
+          cursor: pointer;
+
+          p {
+            font-size: 1.1rem;
+            color: var(--black-text-2);
+          }
+
+          &:hover {
+            background-color: #eddbff;
+          }
+        }
+
+        .sub-menu {
+          cursor: pointer;
+          .menu-item {
+            padding: 10px 15px;
+            font-size: 90%;
+          }
+
+          &:hover {
+            // background-color: #f1eaf8;
+          }
+        }
+      }
+
+      .profile {
+        gap: 10px;
+        padding: 10px 15px;
+        cursor: pointer;
+
+        p {
+          font-size: 1.1rem;
+          color: var(--black-text-2);
+        }
+
+        &:hover {
+          background-color: #eddbff;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .sidebar-wrapper {
+      display: block !important;
+      height: calc(100vh - 60px);
+      position: unset;
+    }
+
+    .header {
+      display: none;
+    }
+  }
+}

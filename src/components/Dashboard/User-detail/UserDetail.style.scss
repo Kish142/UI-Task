@@ -1,0 +1,58 @@
+.dashboard-page .user-detail-section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: calc(100vh - 80px);
+  overflow: auto;
+
+  .user-detail-section-wrapper {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    border-radius: 4px;
+    border-left: 10px solid var(--primary-color);
+    max-width: 500px;
+
+    .user-img {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      margin-bottom: 1.3rem;
+
+      img {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid black;
+      }
+    }
+
+    .user-name {
+      text-align: center;
+      border-bottom: 1px solid #c5c5c5;
+      padding-bottom: 1rem;
+
+      h3 {
+        font-size: 1.4rem;
+      }
+    }
+
+    .user-details {
+      margin-top: 1.5rem;
+
+      p {
+        margin-bottom: 1.3rem;
+      }
+    }
+  }
+
+  .map {
+    margin-top: 1rem;
+    border-left: 10px solid var(--primary-color);
+    background-color: #ffffff;
+    padding: 2rem;
+
+    .title {
+      margin-bottom: 1rem;
+      font-weight: normal;
+    }
+  }
+}
